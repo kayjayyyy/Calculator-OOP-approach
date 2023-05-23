@@ -8,3 +8,7 @@ class calculator_program:
         difference = first_number - second_number
         return difference
     
+    def multiplication(self, first_number, second_number):
+        product = first_number * second_number
+        return product
+    
