@@ -12,3 +12,7 @@ class calculator_program:
         product = first_number * second_number
         return product
     
+    def division(self, first_number, second_number):
+        qoutient = first_number / second_number
+        return qoutient
+    
