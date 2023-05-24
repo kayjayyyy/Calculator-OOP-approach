@@ -12,3 +12,6 @@ class user_interface:
         second_number = float(input("\n\033[33;3mEnter your second number: \033[0m"))
         return second_number
     
+    def ask_again(self):
+        input_again = input("\nDo you want to calculate again (yes or no)? ")
+        return input_again
