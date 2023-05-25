@@ -46,4 +46,8 @@ def calculator():
                           
         elif math == "d":
             difference = calcu.subtraction(first_number, second_number)
-            ui.total_difference(difference) 
+            ui.total_difference(difference)
+                          
+        else:
+            print("\n\033[31mError input character!\033[0m")
+ 
