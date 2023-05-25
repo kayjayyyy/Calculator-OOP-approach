@@ -1,6 +1,10 @@
 class user_interface:
     
     def operations(self):
+        print("\033[36ma. Multiplication\033[0m".center(85))
+        print("\033[36mb. Division\033[0m".center(85))
+        print("\033[36mc. Addition\033[0m".center(85))
+        print("\033[36md. Subtraction\033[0m".center(85))
         math = input("\n\033[33;3mPlease choose a math operation you want to use (a/b/c/d): \033[0m")
         return math
     
