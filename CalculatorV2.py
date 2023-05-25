@@ -31,3 +31,8 @@ def calculator():
         first_number = ui.num1()
                 
         second_number = ui.num2()
+                        
+        if math == "a":
+            product = calcu.multiplication(first_number, second_number)
+            ui.total_product(product)
+                    
