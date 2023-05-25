@@ -43,4 +43,7 @@ def calculator():
         elif math == "c":
             sum = calcu.addition(first_number, second_number)
             ui.total_sum(sum)
-            
+                          
+        elif math == "d":
+            difference = calcu.subtraction(first_number, second_number)
+            ui.total_difference(difference) 
