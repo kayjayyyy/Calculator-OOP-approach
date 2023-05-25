@@ -12,3 +12,9 @@ print("\033[45m ♥ Welcome to our calculator program! ♥ \033[0m".center(85))
 name = input("\n\033[033mGood day! What is your name? \033[0m")
 print("\n\033[3;33mI hope you are doing well,", name + "!\033[0m")
 print("")
+
+from ClassCalc import calculator_program
+from User_interface import user_interface
+
+calcu = calculator_program()
+ui = user_interface()
