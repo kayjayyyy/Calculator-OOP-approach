@@ -18,3 +18,10 @@ from User_interface import user_interface
 
 calcu = calculator_program()
 ui = user_interface()
+
+def calculator():
+    
+    print("")
+    print("\033[34m Let's get started! \033[0m".center(88, "~"))
+    print("\n")
+    

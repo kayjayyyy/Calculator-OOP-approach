@@ -17,7 +17,7 @@ class user_interface:
         return second_number
     
     def ask_again(self):
-        input_again = input("\nDo you want to calculate again (yes or no)? ")
+        input_again = str(input("\nDo you want to calculate again (yes or no)? "))
         return input_again
     
     def total_sum(self, sum):
