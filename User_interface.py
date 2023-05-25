@@ -19,3 +19,6 @@ class user_interface:
     def ask_again(self):
         input_again = input("\nDo you want to calculate again (yes or no)? ")
         return input_again
+    
+    def total_sum(self, sum):
+        print("\n\033[32mThe calculated total is: ", sum, "\033[0m")
