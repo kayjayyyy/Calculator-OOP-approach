@@ -25,4 +25,10 @@ class user_interface:
         
     def total_difference(self, difference):
         print("\n\033[32mThe calculated total is: ", difference, "\033[0m")
+        
+    def total_product(self, product):
+        print("\n\033[32mThe calculated total is: ", product, "\033[0m")
     
+    def total_quotient(self, quotient):
+        print("\n\033[32mThe calculated total is: ", quotient, "\033[0m")
+        
