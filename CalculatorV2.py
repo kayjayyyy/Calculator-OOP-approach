@@ -50,4 +50,10 @@ def calculator():
                           
         else:
             print("\n\033[31mError input character!\033[0m")
- 
+                 
+        while True:
+            input_again = ui.ask_again()
+            if input_again == "yes":
+                calculator()
+            else:
+                exit()
