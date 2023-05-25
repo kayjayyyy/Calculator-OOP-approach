@@ -23,6 +23,6 @@ class user_interface:
     def total_sum(self, sum):
         print("\n\033[32mThe calculated total is: ", sum, "\033[0m")
         
-    def total_difference(self, difference)
+    def total_difference(self, difference):
         print("\n\033[32mThe calculated total is: ", difference, "\033[0m")
     
