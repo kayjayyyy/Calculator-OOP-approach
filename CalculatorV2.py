@@ -57,3 +57,8 @@ def calculator():
                 calculator()
             else:
                 exit()
+              
+    except ValueError:
+        print("INVALID: Error input characters!")
+
+calculator()
