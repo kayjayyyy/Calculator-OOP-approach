@@ -39,4 +39,8 @@ def calculator():
         elif math == "b":
             quotient = calcu.division(first_number, second_number)
             ui.total_quotient(quotient)
+        
+        elif math == "c":
+            sum = calcu.addition(first_number, second_number)
+            ui.total_sum(sum)
             
