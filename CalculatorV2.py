@@ -35,4 +35,8 @@ def calculator():
         if math == "a":
             product = calcu.multiplication(first_number, second_number)
             ui.total_product(product)
-                    
+            
+        elif math == "b":
+            quotient = calcu.division(first_number, second_number)
+            ui.total_quotient(quotient)
+            
