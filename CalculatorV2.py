@@ -24,4 +24,10 @@ def calculator():
     print("")
     print("\033[34m Let's get started! \033[0m".center(88, "~"))
     print("\n")
-    
+
+    try:
+        math = ui.operations()
+                
+        first_number = ui.num1()
+                
+        second_number = ui.num2()
