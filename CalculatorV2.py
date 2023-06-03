@@ -44,22 +44,22 @@ def calculator():
         
         # Af a; multiplication and print the product               
         if math == "a":
-            product = calcu.multiplication(first_number, second_number)
+            product = added.multiplication(first_number, second_number)
             ui.total_product(product)
         
         # If b; division and print the quotient    
         elif math == "b":
-            quotient = calcu.division(first_number, second_number)
+            quotient = added.division(first_number, second_number)
             ui.total_quotient(quotient)
         
         # If c; addition and print the sum
         elif math == "c":
-            sum = calcu.addition(first_number, second_number)
+            sum = added.addition(first_number, second_number)
             ui.total_sum(sum)
         
         # If d; subtraction and print the difference                 
         elif math == "d":
-            difference = calcu.subtraction(first_number, second_number)
+            difference = added.subtraction(first_number, second_number)
             ui.total_difference(difference)
         
         # Else, display error                 
