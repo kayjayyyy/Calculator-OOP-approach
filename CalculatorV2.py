@@ -61,11 +61,13 @@ def calculator():
         elif math == "d":
             difference = added.subtraction(first_number, second_number)
             ui.total_difference(difference)
-    
+
+        # If e; power/exponent and print the total
         elif math == "e":
             power = added.power_exponent(first_number, second_number)
             new_ui.total_power(power)
-                
+        
+        # If d; modulo and print the total       
         elif math == "f":
             total = added.modulo(first_number, second_number)
             new_ui.total_modulo(total)
