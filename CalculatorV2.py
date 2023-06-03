@@ -65,6 +65,10 @@ def calculator():
         elif math == "e":
             power = added.power_exponent(first_number, second_number)
             new_ui.total_power(power)
+                
+        elif math == "f":
+            total = added.modulo(first_number, second_number)
+            new_ui.total_modulo(total)
         
         # Else, display error                 
         else:
