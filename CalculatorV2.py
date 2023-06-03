@@ -22,8 +22,8 @@ from New_user_interface import NewInterface
 # Assign the object
 calcu = calculator_program()
 ui = user_interface()
-added = AddedFunction
-new_ui = NewInterface
+added = AddedFunction()
+new_ui = NewInterface()
 
 def calculator():
     
@@ -34,33 +34,33 @@ def calculator():
 
     try:
         # Ask the user for mathematical operation to be used
-        math = ui.operations()
+        math = new_ui.operations()
         
         # Ask the user to input first number        
-        first_number = ui.num1()
+        first_number = new_ui.num1()
         
         # Ask the user to input second number        
-        second_number = ui.num2()
+        second_number = new_ui.num2()
         
         # Af a; multiplication and print the product               
         if math == "a":
             product = added.multiplication(first_number, second_number)
-            ui.total_product(product)
+            new_ui.total_product(product)
         
         # If b; division and print the quotient    
         elif math == "b":
             quotient = added.division(first_number, second_number)
-            ui.total_quotient(quotient)
+            new_ui.total_quotient(quotient)
         
         # If c; addition and print the sum
         elif math == "c":
             sum = added.addition(first_number, second_number)
-            ui.total_sum(sum)
+            new_ui.total_sum(sum)
         
         # If d; subtraction and print the difference                 
         elif math == "d":
             difference = added.subtraction(first_number, second_number)
-            ui.total_difference(difference)
+            new_ui.total_difference(difference)
 
         # If e; power/exponent and print the total
         elif math == "e":
