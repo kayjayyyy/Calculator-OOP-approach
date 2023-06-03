@@ -17,10 +17,13 @@ print("")
 from ClassCalc import calculator_program
 from User_interface import user_interface
 from Calculator_function import AddedFunction
+from New_user_interface import NewInterface
 
 # Assign the object
 calcu = calculator_program()
 ui = user_interface()
+added = AddedFunction
+new_ui = NewInterface
 
 def calculator():
     
