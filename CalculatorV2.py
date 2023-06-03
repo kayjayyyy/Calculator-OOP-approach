@@ -61,6 +61,10 @@ def calculator():
         elif math == "d":
             difference = added.subtraction(first_number, second_number)
             ui.total_difference(difference)
+    
+        elif math == "e":
+            power = added.power_exponent(first_number, second_number)
+            new_ui.total_power(power)
         
         # Else, display error                 
         else:
