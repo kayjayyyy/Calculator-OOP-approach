@@ -16,6 +16,7 @@ print("")
 # Import class and ui
 from ClassCalc import calculator_program
 from User_interface import user_interface
+from Calculator_function import AddedFunction
 
 # Assign the object
 calcu = calculator_program()
