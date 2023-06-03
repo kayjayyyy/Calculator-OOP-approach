@@ -67,7 +67,7 @@ def calculator():
             power = added.power_exponent(first_number, second_number)
             new_ui.total_power(power)
         
-        # If d; modulo and print the total       
+        # If f; modulo and print the total       
         elif math == "f":
             total = added.modulo(first_number, second_number)
             new_ui.total_modulo(total)
