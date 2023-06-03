@@ -12,6 +12,8 @@ A python program that will allow you to perform the basic calculations such as A
 - If b; division and print the quotient
 - If c; addition and print the sum
 - If d; subtraction and print the difference
+- If e; power/exponent and print the total
+- If f; modulo and print the total
 - Else, display error
 - Ask the user if they want to calculate again
 - If yes, return to calculator
